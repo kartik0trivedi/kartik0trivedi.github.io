@@ -1,0 +1,56 @@
+---
+title: "VR Roles and LMI Usage"
+author: "KartikTrivedi"
+date: "November 28, 2017"
+output:
+    bookdown::gitbook: default
+documentclass: book
+---
+```{r echo = FALSE}
+library(readxl)
+library(knitr)
+library(dplyr)
+LMIuse <- read_excel("VRrolesLMIusage.xls", 
+    col_types = c("text", "text", "text", 
+        "text"))
+LMIuse$Roles <- as.factor(LMIuse$Roles)
+```
+
+# VR Roles and LMI Usage
+
+Different roles within a VR agency will use LMI in different ways. In the following tables we are providing some examples of different roles within an agency will use LMI based on their objectives and possible benefits. We have classified five roles within VR to illustrate these examples of using LMI--
+* Counselor
+* Business Relations Representative
+* Job Developers
+* Field Services Directors
+* Director
+
+## Counselors using LMI
+```{r echo = FALSE, results='asis'}
+kable(subset(LMIuse, LMIuse$Roles=="Counselor")[,2:4], booktabs = TRUE, longtable= TRUE, caption = "VR Counselor: Possible examples of using LMI")
+```
+
+
+## Business Relations Representative using LMI
+```{r echo = FALSE, results='asis'}
+kable(subset(LMIuse, LMIuse$Roles=="Business Relations Representative")[,2:4], booktabs = TRUE, longtable= TRUE, caption = "VR Business Relations Representative: Possible examples of using LMI")
+```
+
+
+## Job Developers using LMI
+```{r echo = FALSE, results='asis'}
+kable(subset(LMIuse, LMIuse$Roles=="Job Developers")[,2:4], booktabs = TRUE, longtable= TRUE, caption = "Job Developers: Possible examples of using LMI")
+```
+
+
+## Field Services Directors using LMI
+```{r echo = FALSE, results='asis'}
+kable(subset(LMIuse, LMIuse$Roles=="Field Services Directors")[,2:4], booktabs = TRUE, longtable= TRUE, caption = "Field Services Directors: Possible examples of using LMI")
+```
+
+
+## Directors using LMI
+```{r echo = FALSE, results='asis'}
+kable(subset(LMIuse, LMIuse$Roles=="Director")[,2:4], booktabs = TRUE, longtable= TRUE, caption = "Director: Possible examples of using LMI")
+```
+

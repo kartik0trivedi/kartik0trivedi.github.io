@@ -1,0 +1,91 @@
+---
+title: "Private Data Source"
+author: "KartikTrivedi"
+date: "November 28, 2017"
+output:
+    bookdown::gitbook: default
+documentclass: book
+---
+# Private Sources of LMI
+
+There are private for profit firms, non-profit organizations, and research institutes that provide labor market data and analyses. The information available through private sources is often available for free and is mostly available on the internet. On some occasions value added information, or information with higher fidelity is available only through membership, subscription or for a fee. Several of the popular sites that mostly function as a job board also provide statistics and data on the labor market, along with career planning services. There is a specific and growing sub-class of private LMI providers that focuses mostly on providing real-time LMI. The field of private LMI in general is continously evolving with consistent influx of new players. 
+Real-Time LMI can be considered as a special class of LMI that uses advanced computational algorithms to collect and analyze data from job postings across the internet. In comparison, conventional sources of private LMI might gather data through surveys, providers of real-time LMI gathers data from actual job postings from across the internet. Well known job boards are also increasingly becoming sources for real-time LMI as they increase their ability to parse job postings on their network as well as on the internet in whole.
+
+This catalogue is not endorsing any particular source but aims to provide general information on various private sources of LMI. Users should be aware of copyright or any other restriction with respect to the information products or data available through private sources.
+
+## Private sources of LMI
+
+As noted earlier there are multiple private sources of LMI. Some of the companies collect data through surveys of employers. Other companies that mainly function as job-boards analyzes the jobs posted on their services and provide an aggregated outlook on trends in labor demand and supply. These private sources also small briefs and reports that synthesizes data that is either available through outher public LMI sources or references the proprietary data.
+
+**Strengths:** There are multiple sources of such private LMI to chose from. VR counselors can chose the source that serves their needs the best. Websites hosting private LMI also provides analysis and synthesis of their data for easy consumption. Compared to public sources of LMI, new set of private LMI data is made available at a higher frequency.
+
+**Limitations:** Private sources of LMI are often less exhaustive than public sources of LMI in their reach and coverage. Private sources of LMI or often not as extensively scrutinized as most of the public sources of LMI are. In cases where data collection or analysis methodology is proprietary, it is not easy to assess the methodology as an user. 
+
+**Level of Specificity:** Most of the private sources of LMI are frequently updated and are mostly available at state level. Specially, the data based on job postings is available even for smaller regions such as counties, cities and towns. 
+
+Following is a non-exhaustive list of private sources of LMI --
+
+* *Conference Board*
+
+<https://www.conference-board.org/data/> ,
+<https://www.conference-board.org/data/eti.cfm>, <https://www.conference-board.org/data/helpwantedonline.cfm>
+
+Conference board is a global research association that provides informational relevant to the businesses. The Conference Board website provides publication and data related to the labor market. The Conference Board also develops Employment Trend Index <https://www.conference-board.org/data/eti.cfm>, which is based on other publicly available sources of LMI. The Conference Board considers its ETI as a short-term look of the labor market which can be used by decision makers as a forecasting tool.
+
+The conference board also produced Help Wanted Online (HWOL) Data Series in partnership with Wanted Technologies. HWOL is monthly series that looks at 16,000 internet job boards, corporate boards and other job sites. HWOL provides seasonally adjusted labor supply and demand data for the U.S., the nine Census regions, the 50 states, and locally for 52 largest metropolitan areas. HWOL data and related information is available at <https://www.conference-board.org/data/helpwantedonline.cfm>
+
+*	*Manpower Inc.* 
+
+<http://www.manpower.com>
+
+Manpower is a staffing agency that provides workforce management services to employers. It conducts quarterly Employment Outlook Surveys in the U.S. results of which are publicly available at <http://manpowergroup.us/meos/>.
+
+*	*Monster.com*
+
+<http://www.monster.com>
+
+Monster.com is an online job posting website. Monster.com provide salary search to its consumers and also produce market intelligence reports on labor statistics and trends, occupational reports and resources for job seekers. Reports from Monster.com are available at - <https://hiring.monster.com/hr/hr-best-practices.aspx>
+
+* *Indeed.com*
+
+<http://www.indeed.com>
+
+Indeed.com is a leading job search portal. Besides job postings, once can find job category trends (<https://www.indeed.com/jobtrends/category-trends>), salaries (<https://www.indeed.com/salaries>) and company reviews (<https://www.indeed.com/companies>). 
+
+* *Careerbuilder*
+
+<http://www.careerbuilder.com/>
+
+Careerbuilder like Indeed.com is also a job search portal. Along with providing access to job postings it  also provides information salaries, required skills and other resources. Most of the additional resources are available at - <https://www.careerbuilder.com/insights/>
+
+## Real-Time Labor Market Information
+
+The real-time LMI as a sub-class of private LMI deserves discussion in greater detail because of its scope and how it can compliment traditional sources of LMI. Real-Time LMI is derived from online job postings available across multiple job boards, both small and large. 
+
+Many a times online job postings contain wage range, industry information and occupational information. Other information in job postings such as position description, and skill requirements are also valuable set of information. Organizations that provide real-time LMI are continuously parsing online job postings and develop aggregates based on region, industry type, occupation type and job requirements. Most of the providers of LMI try their best to remove duplicates before developing usable statistics. 
+
+**Strengths:** Real-time labor data provides users with scrubbed online postings that are active at the moment and are representing positions for which an employer is actively seeking workers. Many open positions at one employer may signify change in that employers’ hiring needs. In general statistics generated through real-time LMI tools are updates at least once in a day. 
+
+**Limitations:** Such data sources only collect job related information that is available online. It is unclear if all labor market sectors are actively posting online and whether an online posting is for an open position. Some postings may be for positions in which there is an internal hire already identified, or are always posted to ensure a pool of applicants for when the position becomes available. Data provided through such sources can be inconsistent because of the details provided in various job postings.
+
+**Level of Specificity:** Data are available at the city and often at the zip code levels. Data are also available in real time. Details such as skill requirements, educational requirements, experience requirements, occupation codes, and sector information are also easily available.
+
+Following is a non-exhaustive list of sources of real-time LMI --
+
+*	*Labor Insight by Burning Glass*
+
+<http://burning-glass.com/labor-insight/>
+
+Labor Insight by Burning Glass is an analytical tool that provide aggregated labor market data in real-time. Burning glass aggregates and analyzes job postings from multiple sources, remove the duplicates and provides a dashboard to display relevant information. 
+
+*	*CEB TlentNeutron*
+
+<https://www.cebglobal.com/talent-management/talent-neuron.html>
+
+TalentNeutron, which is a part of Gartner was also known as Help Wanted analytics. TalentNeutron is provider of real-time LMI analytics, targeted mainly to HR services to help them make recruiting decisions. It provides labor supply and demand information by region, industry, occupational classifications and skills. 
+
+* *Geographic Solutions*
+
+<https://www.geographicsolutions.com/>
+
+Geographic Solutions is another provider of real-time LMI. It has developed America’s Labor Market Analyzer (ALMA) as a tool that combines multiple sources of LMI with real-time LMI.

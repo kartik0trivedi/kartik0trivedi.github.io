@@ -1,0 +1,19 @@
+--- 
+title: "User Manual on Labor Market Information"
+author: "Institute for Community Inclusion"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+    bookdown::gitbook: default
+documentclass: book
+#bibliography: [book.bib, packages.bib]
+#biblio-style: apalike
+#link-citations: yes
+description: "This is a user manual to help VR employees to navigate through multiple sources of labor market information"
+---
+# Introduction {-}
+This user manual is an open-source living document that provides description about how VR can use and potentially benefit from using Labor Market Information (LMI). This manual provides information about what LMI is, why it should be used, how it can be used and then provides a catalogue of different sources of LMI. This manual also highlights how some agencies are using LMI in innovative ways. 
+Reason for keeping this book open sourced, free to use, and free to edit is two folds. First, LMI, its usage within VR are continously evolving. A standard format document cannot keep-up with the changes that are happening on a daily basis. Second, by open-sourcing this manual, we also want to invite VR agencies, practitioners and researchers to contribue in making LMI more usable and accessible for the VR.
+We understand that we havent been exhaustive in listing all the sources and all the possible ways LMI can be used. This manual should however guide its users in the direction where they can find relevant LMI, make them comfortable using LMI and finally enable them to contribute towards the common knowledge base. 
+
+
