@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="vr-roles-and-lmi-usage.html">
-<link rel="next" href="public-sources-of-lmi.html">
+<link rel="prev" href="existing-innovative-strategies.html">
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -129,18 +129,220 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="lmi-data-source" class="section level1">
-<h1><span class="header-section-number">5</span> LMI Data Source</h1>
-<p>In this section, we are introducing LMI data sources, the corresponding dataset and their strengths and limitations for state vocational rehabilitation agencies. This is not an exhaustive list and each state may have additional sources. We have compiled them by public data sources and private data sources. We have divided the data sources by their ownership i.e., public data sources and private data sources. Most of the data sources listed in this section are available for free. However, some data sources are subscription based or require a fee. Most of the description text, when available is taken from the websites that describe the datasources. We intend to continual update this list with the most recent links, new data sources and any other changes.</p>
+<div id="example-analysis" class="section level1">
+<h1><span class="header-section-number">9</span> Example Analysis</h1>
+<p>In this section we present a few examples for VR agencies of how to crosswalk LMI data sources to answer questions of relevance. Our goal is to present examples, and share as much methodology as possible so that these examples can be replicated by VR agencies.</p>
+<p>Examples presented in this section covers different sources of LMI. Each example describes the data source, how data was accessed, caveats associated with the data, purpose of the analysis, methodology used and findings. Further we also discuss the utility and how each example can be replicated.</p>
+<p>Purpose of this manual is not to only illustrate the utility of LMI, but it is also to contextualize LMI’s utility vis-à-vis VR. This section looks into how LMI can be used to meet employers’ needs, serve clients, improve outreach and engage with different stakeholders.</p>
 
+<div id="occupational-statistics" class="section level2">
+<h2><span class="header-section-number">9.1</span> Occupational Statistics</h2>
+<p><strong>Purpose</strong></p>
+<p>To answer the question: What are the annual wages for entry level workers and experienced workers in selected occupations in a state.</p>
+<p><strong>Data Source</strong></p>
+<p><em>OES Wage Survey, Bureau of Labor Statistics</em></p>
+<p>Occupational Economic Survey (OES) is an annual survey that collects data on occupation trends and wages across the country. The BLS uses the standard occupation classification code (SOC) that is also used by VR agencies. Occupational code data are available and can be linked with RSA 911 Data can be examined at the state, Metropolitan Statistical Area (MSA) level and at the Metropolitan Division and Nonmetropolitan Area.</p>
+<p><strong>Accessing the Data</strong></p>
+<p>Data is available on the OES page in BLS’ website <a href="https://www.bls.gov/oes/home.htm" class="uri">https://www.bls.gov/oes/home.htm</a>. A visitor can use tools available on the website <a href="https://www.bls.gov/data/" class="uri">https://www.bls.gov/data/</a> and it provides a profile for each occupation within an industry and across locations. Data in tabular format is made available for National, State, Metropolitan and nonmetropolitan area is available at <a href="https://www.bls.gov/oes/tables.htm" class="uri">https://www.bls.gov/oes/tables.htm</a>.</p>
+<p><strong>Things to think about</strong></p>
+<p>OES covers all full-time and part-time wage and salary workers but does not include those that are self-employed, owners and partners in unincorporated firms, household workers or unpaid family workers. OES refers to 6 digit NAICS codes for identifying industries for all the occupations.</p>
+<p><strong>Methodology</strong></p>
+<p>Following analysis is based on state level OES data available at <a href="https://www.bls.gov/oes/tables.htm" class="uri">https://www.bls.gov/oes/tables.htm</a>. We aggregated wage data for different major occupations <strong>(OCC_TITLE)</strong>, and presented following statistics –</p>
+<ul>
+<li><em>number of people employed ($)</em> <strong>(TOT_EMP)</strong>,</li>
+<li><em>mean annual wage at 25th percentile ($)</em> <strong>(A_PCT25)</strong>,</li>
+<li><em>mean annual wage ($)</em> <strong>(A_MEAN)</strong>, and</li>
+<li><em>mean annual wage at 75th percentile ($)</em> <strong>(A_PCT75)</strong>.</li>
+</ul>
+<p><strong>Findings</strong></p>
+<table>
+<caption><span id="tab:unnamed-chunk-7">Table 9.1: </span>Example 1: Total Employment and Wages by Occupation in Alabama</caption>
+<thead>
+<tr class="header">
+<th align="left">OCC_TITLE</th>
+<th align="right">TOT_EMP</th>
+<th align="right">A_PCT25</th>
+<th align="right">A_MEAN</th>
+<th align="right">A_PCT75</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">All Occupations</td>
+<td align="right">1912990</td>
+<td align="right">21200</td>
+<td align="right">42510</td>
+<td align="right">51370</td>
+</tr>
+<tr class="even">
+<td align="left">Management Occupations</td>
+<td align="right">70090</td>
+<td align="right">70040</td>
+<td align="right">110210</td>
+<td align="right">131410</td>
+</tr>
+<tr class="odd">
+<td align="left">Business and Financial Operations Occupations</td>
+<td align="right">72290</td>
+<td align="right">46770</td>
+<td align="right">69890</td>
+<td align="right">83980</td>
+</tr>
+<tr class="even">
+<td align="left">Computer and Mathematical Occupations</td>
+<td align="right">38600</td>
+<td align="right">55660</td>
+<td align="right">79090</td>
+<td align="right">99080</td>
+</tr>
+<tr class="odd">
+<td align="left">Architecture and Engineering Occupations</td>
+<td align="right">42800</td>
+<td align="right">58630</td>
+<td align="right">86800</td>
+<td align="right">111720</td>
+</tr>
+<tr class="even">
+<td align="left">Life, Physical, and Social Science Occupations</td>
+<td align="right">8600</td>
+<td align="right">42470</td>
+<td align="right">66450</td>
+<td align="right">79150</td>
+</tr>
+<tr class="odd">
+<td align="left">Community and Social Service Occupations</td>
+<td align="right">17520</td>
+<td align="right">32390</td>
+<td align="right">43190</td>
+<td align="right">53600</td>
+</tr>
+<tr class="even">
+<td align="left">Legal Occupations</td>
+<td align="right">9820</td>
+<td align="right">42550</td>
+<td align="right">86720</td>
+<td align="right">112240</td>
+</tr>
+<tr class="odd">
+<td align="left">Education, Training, and Library Occupations</td>
+<td align="right">102910</td>
+<td align="right">24350</td>
+<td align="right">46490</td>
+<td align="right">57530</td>
+</tr>
+<tr class="even">
+<td align="left">Arts, Design, Entertainment, Sports, and Media Occupations</td>
+<td align="right">17370</td>
+<td align="right">21220</td>
+<td align="right">41500</td>
+<td align="right">52040</td>
+</tr>
+<tr class="odd">
+<td align="left">Healthcare Practitioners and Technical Occupations</td>
+<td align="right">128740</td>
+<td align="right">37950</td>
+<td align="right">69020</td>
+<td align="right">71780</td>
+</tr>
+<tr class="even">
+<td align="left">Healthcare Support Occupations</td>
+<td align="right">51430</td>
+<td align="right">19770</td>
+<td align="right">26050</td>
+<td align="right">29560</td>
+</tr>
+<tr class="odd">
+<td align="left">Protective Service Occupations</td>
+<td align="right">42490</td>
+<td align="right">21720</td>
+<td align="right">36080</td>
+<td align="right">46080</td>
+</tr>
+<tr class="even">
+<td align="left">Food Preparation and Serving Related Occupations</td>
+<td align="right">167750</td>
+<td align="right">17160</td>
+<td align="right">20560</td>
+<td align="right">22140</td>
+</tr>
+<tr class="odd">
+<td align="left">Building and Grounds Cleaning and Maintenance Occupations</td>
+<td align="right">59230</td>
+<td align="right">18320</td>
+<td align="right">24170</td>
+<td align="right">27060</td>
+</tr>
+<tr class="even">
+<td align="left">Personal Care and Service Occupations</td>
+<td align="right">46400</td>
+<td align="right">17290</td>
+<td align="right">22250</td>
+<td align="right">23940</td>
+</tr>
+<tr class="odd">
+<td align="left">Sales and Related Occupations</td>
+<td align="right">217970</td>
+<td align="right">18440</td>
+<td align="right">34070</td>
+<td align="right">38860</td>
+</tr>
+<tr class="even">
+<td align="left">Office and Administrative Support Occupations</td>
+<td align="right">284130</td>
+<td align="right">23460</td>
+<td align="right">33280</td>
+<td align="right">39750</td>
+</tr>
+<tr class="odd">
+<td align="left">Farming, Fishing, and Forestry Occupations</td>
+<td align="right">5880</td>
+<td align="right">22530</td>
+<td align="right">32630</td>
+<td align="right">39300</td>
+</tr>
+<tr class="even">
+<td align="left">Construction and Extraction Occupations</td>
+<td align="right">73740</td>
+<td align="right">28340</td>
+<td align="right">39990</td>
+<td align="right">48700</td>
+</tr>
+<tr class="odd">
+<td align="left">Installation, Maintenance, and Repair Occupations</td>
+<td align="right">92250</td>
+<td align="right">31280</td>
+<td align="right">45460</td>
+<td align="right">57810</td>
+</tr>
+<tr class="even">
+<td align="left">Production Occupations</td>
+<td align="right">213550</td>
+<td align="right">23130</td>
+<td align="right">34890</td>
+<td align="right">42590</td>
+</tr>
+<tr class="odd">
+<td align="left">Transportation and Material Moving Occupations</td>
+<td align="right">149440</td>
+<td align="right">20410</td>
+<td align="right">31790</td>
+<td align="right">38440</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Utility</strong></p>
+<p>Alone, occupation data is useful in appreciating the trends and forecasting. Together with other data sources for example VR’s RSA 911 - which uses SOC to represent successfully closed cases – OES can be used to present more holistic picture of labor market and occupational demand specifically.</p>
+<p><strong>Replication</strong> The OES is a very accessible dataset. The BLS provides aggregated data tables for easy analysis. The data tool made available at <a href="https://www.bls.gov/data/" class="uri">https://www.bls.gov/data/</a> can be used to find very specific occupational statistics. The BLS also provides Application Programming Interface (API) for programmers and developers to develop tools for more robust analysis. Such tools, can be developed at an institutional level. More information BLS’ API is available at <a href="https://www.bls.gov/developers/" class="uri">https://www.bls.gov/developers/</a>.</p>
+
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="vr-roles-and-lmi-usage.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="public-sources-of-lmi.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="existing-innovative-strategies.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
